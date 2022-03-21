@@ -20,7 +20,7 @@ def main():
         try:
             choice = int(choice)
         except ValueError:
-            print("That's not an int!")
+            print("That's not an Number")
             continue
         
         if choice == 1:
